@@ -1,6 +1,5 @@
 # Low Frame-rate Speech Codec (LFSC) — The Codec Behind Koel-TTS
 
-If you've worked with DAC and RVQ-based codecs (which you have at Invideo), understanding LFSC is about seeing a fundamentally different quantization philosophy. Where DAC uses Residual Vector Quantization — a sequential, coarse-to-fine chain — LFSC uses Finite Scalar Quantization (FSQ) — independent, parallel quantization of each dimension. This difference has profound implications for how downstream models like Koel-TTS can use the tokens.
 
 ---
 
